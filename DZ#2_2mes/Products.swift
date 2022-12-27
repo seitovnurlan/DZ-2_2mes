@@ -1,5 +1,7 @@
 //  Products.swift
 
+import Foundation
+
 class Products {
     var name: String         //Наименование товара
     var sum: Int             //Количество товара
@@ -11,7 +13,8 @@ class Products {
         self.cost = cost
     }
     
-    func printfood(){
+    func printproducts(){
+        
         print(" Name - \(name). sum - \(sum). Cost - \(cost).")
     }
 }

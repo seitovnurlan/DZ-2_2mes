@@ -34,5 +34,28 @@ shop.add_prod(goods4)
 shop.showInfoshop()
 shop.showInfo()
 
+var goods5 = Products(name: "Motor", sum: 1, cost: 25000)
+var goods6 = Products(name: "Motor", sum: 2, cost: 30000)
+var goods7 = Products(name: "Doors", sum: 5, cost: 5000)
 
+var autopartArray = [Products]()
+var shop2 = Auto_parts_shop(shop_name: "Kudaibergen", square: 100, location: "Bishkek", opening_hours: "10.00-18.00", products: foodArray, type_auto: "легковой")
+shop2.add_prod(goods5)
+shop2.add_prod(goods6)
+shop2.add_prod(goods7)
 
+shop2.showInfoshop()
+shop2.showInfo()
+
+var goods8 = Products(name: "Lacosta", sum: 5, cost: 4000)
+var goods9 = Products(name: "Lacosta", sum: 5, cost: 5000)
+var goods10 = Products(name: "LCW", sum: 10, cost: 6000)
+
+var clothesArray = [Products]()
+var shop3 = Auto_parts_shop(shop_name: "Asiamoll", square: 150, location: "Bishkek", opening_hours: "10.00-20.00", products: foodArray, type_auto: "верхняя одежда")
+shop3.add_prod(goods8)
+shop3.add_prod(goods9)
+shop3.add_prod(goods10)
+
+shop3.showInfoshop()
+shop3.showInfo()

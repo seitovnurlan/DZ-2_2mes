@@ -1,5 +1,7 @@
 //  Shop.swift
 
+import Foundation
+
 class Shop {
     var shop_name: String             //Название
     var square: Int                  //Площадь
@@ -32,7 +34,7 @@ class Shop {
     
     func showInfo(){
         for i in products {
-            i.printfood()
+            i.printproducts()
         }
     }
     func showInfoshop(){

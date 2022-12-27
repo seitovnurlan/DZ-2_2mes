@@ -10,6 +10,8 @@
 		28B9DC44295A3DAD0043380E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9DC43295A3DAD0043380E /* main.swift */; };
 		28B9DC4B295AC04A0043380E /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9DC4A295AC04A0043380E /* Shop.swift */; };
 		28B9DC4D295AC0CE0043380E /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9DC4C295AC0CE0043380E /* Products.swift */; };
+		28B9DC4F295AE0D10043380E /* Auto_parts_shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9DC4E295AE0D10043380E /* Auto_parts_shop.swift */; };
+		28B9DC51295AE1080043380E /* Сlothes_shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9DC50295AE1080043380E /* Сlothes_shop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,8 @@
 		28B9DC43295A3DAD0043380E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		28B9DC4A295AC04A0043380E /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
 		28B9DC4C295AC0CE0043380E /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		28B9DC4E295AE0D10043380E /* Auto_parts_shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auto_parts_shop.swift; sourceTree = "<group>"; };
+		28B9DC50295AE1080043380E /* Сlothes_shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Сlothes_shop.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				28B9DC43295A3DAD0043380E /* main.swift */,
 				28B9DC4C295AC0CE0043380E /* Products.swift */,
 				28B9DC4A295AC04A0043380E /* Shop.swift */,
+				28B9DC4E295AE0D10043380E /* Auto_parts_shop.swift */,
+				28B9DC50295AE1080043380E /* Сlothes_shop.swift */,
 			);
 			path = "DZ#2_2mes";
 			sourceTree = "<group>";
@@ -128,7 +134,9 @@
 			files = (
 				28B9DC4D295AC0CE0043380E /* Products.swift in Sources */,
 				28B9DC44295A3DAD0043380E /* main.swift in Sources */,
+				28B9DC51295AE1080043380E /* Сlothes_shop.swift in Sources */,
 				28B9DC4B295AC04A0043380E /* Shop.swift in Sources */,
+				28B9DC4F295AE0D10043380E /* Auto_parts_shop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
